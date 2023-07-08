@@ -1,0 +1,131 @@
+
+#features{
+      padding: 80px 0;
+      background-color: aliceblue;
+}
+
+
+
+@media (max-width: 426px) and (min-width: 338px) {
+      
+      #contactUs2-1 {
+            width: 100px;
+      }
+      #contactUs2-2 {
+            width: 100px;
+      }
+      #contactUs2-3 {
+            width: 100px;
+      }
+      #contactUs2-4 {
+            width: 100px;
+      }
+      #contactMain {
+            display: grid;
+            grid-template-columns: auto auto ;
+            justify-content: center;
+            row-gap: 5px;
+      }
+
+      #featureBox{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            padding: 10px;
+          
+      }
+
+      #bestThing{
+            padding-top: 50px;
+      }
+   
+
+}
+@media (max-width: 764px) and (min-width: 427px) {
+      
+      #contactUs2-1 {
+            width: 200px;
+      }
+      #contactUs2-2 {
+            width: 200px;
+      }
+      #contactUs2-3 {
+            width: 200px;
+      }
+      #contactUs2-4 {
+            width: 200px;
+      }
+      #contactMain {
+            display: grid;
+            grid-template-columns: auto auto ;
+            justify-content: center;
+            row-gap: 5px;
+      }
+      
+      #featureBox{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            padding: 10px;
+          
+      }
+      #bestThing{
+            padding-top: 50px;
+      }
+
+}
+@media (max-width: 992px) and (min-width: 765px) {
+      
+      #contactUs2-1 {
+            width: 300px;
+      }
+      #contactUs2-2 {
+            width: 300px;
+      }
+      #contactUs2-3 {
+            width: 300px;
+      }
+      #contactUs2-4 {
+            width: 300px;
+      }
+      #contactMain {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+      }
+      
+      #featureBox{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            padding: 10px;
+          
+      }
+      #bestThing{
+            padding-top: 50px;
+      }
+     
+
+}
+@media (max-width: 1920px) and (min-width: 993px) {
+      
+      #contactUs2-1 {
+            width: 200px;
+      }
+      #contactUs2-2 {
+            width: 200px;
+      }
+      #contactUs2-3 {
+            width: 200px;
+      }
+      #contactUs2-4 {
+            width: 200px;
+      }
+      #contactMain {
+            display: flex;
+            justify-content: center;
+            column-gap: 60px;
+      }
+}
+
